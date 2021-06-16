@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    display: block;
+}
+
+.add-form{
+    text-align: center;
+}
+
+.navbar-brand {
+    line-height: 0;
+}
+
+body {
+    background: url(../img/background28.svg) repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+.header {
+    background-color: #e8e8e8;
+    -webkit-box-shadow: 5px 18px 50px -30px #000000; 
+    box-shadow: 5px 18px 50px -30px #000000;
+}
+
+.img{
+    margin-right: 100px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.header__buttons {
+    width: 50%;
+}
+
+.table-success {
+    margin-top: 50px;
+    width: 45%;
+}
+
+#add_book {
+    width: 100%;
+}
+
+#add_book > div {
+    margin: auto;
+}
+
+.del{
+    width: 30px;
+}
+
+.books__table{
+    height: 300px;
+}
+
+.delete{
+    cursor: pointer;
+}
+

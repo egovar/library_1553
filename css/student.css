@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+.h1 {
+	margin: 0;
+	font-size: 30px!important;
+	display: block;
+}
+
+body
+{
+	background: url(../img/background28.svg) repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.navbar-brand {
+	line-height: 0;
+}
+.header {
+	background-color: #e8e8e8;
+	-webkit-box-shadow: 5px 18px 50px -30px #000000;
+	box-shadow: 5px 18px 50px -30px #000000;
+
+}
+
+.img{
+	margin-right: 100px;
+}
+
+.logo {
+	width: 50%;
+}
+.header__buttons {
+	width: 50%;
+}
+
+
+.main__header
+{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+}
+.main__content
+{
+	margin-top: 30px;
+	
+}
+.alert
+{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+	color: red;
+	outline: 2px solid grey;
+	background-color: white;
+}
+
+#end-modal.visible {
+	background-color: rgba(0.5, 0.5, 0.5, 0.3);
+	display: block;
+	opacity: 1;
+}
+
+.modal-content {
+	margin: auto;
+	margin-top: 100px;
+}

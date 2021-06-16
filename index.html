@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container justify-content-between">
+            <div class="logo d-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo2.png" alt="#" width="115" height="115">
+                </a>
+
+                <h1 class="d-flex flex-column">
+                    Библиотека
+                    <strong>Лицея 1533</strong>
+                    (Информационных технологий)
+                </h1>
+
+            </div>
+            <div class="header__buttons d-flex justify-content-end">
+                <div class="btn">
+                    <button type="button" class="btn btn-secondary btn-lg" id="web-site">Сайт лицея</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="mainContent">
+        <div class="form">
+        <form id="auth">
+            <div class="mb-3">
+              <label for="login" class="form-label">Логин:</label>
+              <input type="login" class="form-control" id="login" aria-describedby="loginlHelp" placeholder="Введите лицейский логин">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Пароль:</label>
+              <input type="password" class="form-control" id="password" placeholder="Введите лицейский пароль">
+            </div>
+            <button type="submit" class="btn btn-primary">Подтвердить</button>
+          </form>
+        </div>
+        <div class="img"><img src="./img/image (1).png" alt="#" width="600px" height="600px"></div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/e9432ce9ea.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="./js/login.js"></script>
+</html>
